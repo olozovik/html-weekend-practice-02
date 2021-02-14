@@ -53,7 +53,6 @@ header {
 
   font-size: 30px;
   letter-spacing: 3px;
-  /* line-height: 2.4; */
   color: #211833;
   font-weight: 400;
   font-family: 'Playfair Display', sans-serif;
@@ -86,7 +85,6 @@ header {
 
   font-size: 15px;
   letter-spacing: 2px;
-  /* line-height: 4.8; */
   font-weight: 400;
   font-family: 'Rufina', sans-serif;
   color: #ff817e;
@@ -118,10 +116,9 @@ header {
   padding: 20px 33px;
 
   font-size: 13px;
-  /* line-height: 5.54; */
   color: #ffffff;
   font-weight: 500;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   background-color: #ff817e;
 }
