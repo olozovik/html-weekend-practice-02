@@ -1,0 +1,151 @@
+.container {
+  outline: 2px solid teal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  padding-top: 19px;
+  padding-bottom: 97px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo-img {
+  margin-bottom: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 184px;
+
+  font-size: 30px;
+  letter-spacing: 3px;
+  /* line-height: 2.4; */
+  color: #211833;
+  font-weight: 400;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  width: 456px;
+}
+
+.menu-link {
+  font-size: 14px;
+  line-height: 45px;
+  color: #263a41;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
+
+/* Hero */
+
+.hero-section {
+  padding-top: 97px;
+  padding-bottom: 240px;
+}
+
+.hero-pretitle {
+  margin-bottom: 38px;
+
+  font-size: 15px;
+  letter-spacing: 2px;
+  /* line-height: 4.8; */
+  font-weight: 400;
+  font-family: 'Rufina', sans-serif;
+  color: #ff817e;
+}
+
+.hero-title {
+  margin-bottom: 47px;
+
+  font-size: 60px;
+  line-height: 1.15;
+  color: #1e2528;
+  font-weight: 700;
+  font-family: 'Rufina', sans-serif;
+}
+
+.hero-text {
+  margin-bottom: 54px;
+
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555555;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.order-btn {
+  display: inline-block;
+  margin-right: 54px;
+  padding: 20px 33px;
+
+  font-size: 13px;
+  /* line-height: 5.54; */
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  background-color: #ff817e;
+}
+
+.hero-button {
+  display: inline-block;
+
+  font-size: 15px;
+  line-height: 27px;
+  color: #555555;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-button::before {
+  display: inline-block;
+
+  content: '';
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 14px;
+  background-image: url(../images/video.png);
+}

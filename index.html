@@ -4,33 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400;500&family=Rufina:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html"
-          ><img src="./images/icon.svg" alt="Logo" />Leospa</a
-        >
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">feature</a></li>
-          <li><a href="">service</a></li>
-          <li><a href="">contact</a></li>
-        </ul>
-      </nav>
+      <div class="container header-container">
+        <nav class="nav">
+          <a class="logo" href="./index.html"
+            ><img
+              class="logo-img"
+              src="./images/icon.svg"
+              alt="Logo"
+              width="51"
+              height="42"
+            />Leospa</a
+          >
+          <ul class="menu-list">
+            <li class="menu-item"><a class="menu-link" href="">Home</a></li>
+            <li class="menu-item"><a class="menu-link" href="">About</a></li>
+            <li class="menu-item"><a class="menu-link" href="">feature</a></li>
+            <li class="menu-item"><a class="menu-link" href="">service</a></li>
+            <li class="menu-item"><a class="menu-link" href="">contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
-        <p>spa & beauty center</p>
-        <h1>Beauty and success starts here</h1>
-        <p>
-          Together creeping heaven upon third dominion be upon won't darkness
-          rule behold it created good saw after she'd Our set living.
-        </p>
-        <a href="#">reserve now &#10132;</a>
-        <button type="button">Watch our story</button>
+      <section class="hero">
+        <div class="container hero-section">
+          <p class="hero-pretitle">spa & beauty center</p>
+          <h1 class="hero-title">
+            Beauty and success<br />
+            starts here.
+          </h1>
+          <p class="hero-text">
+            Together creeping heaven upon third dominion be upon won't darkness
+            rule<br />
+            behold it created good saw after she'd Our set living.
+          </p>
+          <a class="order-btn" href="#">reserve now &#10132;</a>
+          <button type="button" class="hero-button">Watch our story</button>
+        </div>
       </section>
+
       <section>
         <img src="./images/icon.svg" alt="logo" />
         <p>About our spa center</p>
